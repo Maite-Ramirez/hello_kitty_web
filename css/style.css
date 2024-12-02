@@ -1,0 +1,24 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: red !important;
+}
+
+h1 {
+    font-size: 4em !important;
+}
+
+/* ADAPTACIONES RESPONSIVE */
+@media screen and (max-width: 1200px) {
+
+
+}   
+
+@media screen and (max-width: 470px) {
+
+}
