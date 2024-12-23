@@ -13,6 +13,21 @@ body {
 }
 
 
+/* Cambiar tipografía */
+.navbar-nav .nav-link {
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 1.2rem; 
+    color: white !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF69B4 !important; 
+}
+
+/* Ajustar espaciado entre elementos */
+.navbar-nav .nav-item {
+    margin-right: 1rem; 
+}
 
 /* Home */
 .portada {
