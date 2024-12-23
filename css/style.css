@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=DotGothic16&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0 !important;
     padding: 0;
@@ -9,9 +12,38 @@ body {
     background-color: pink !important;
 }
 
-h1 {
-    font-size: 4em !important;
+
+
+/* Home */
+.portada {
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+
+.portada h1 {
+    font-family: "DotGothic16", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    z-index: 1; 
+}
+
+main div model-viewer {
+    width: 70vh;
+    height: 70vh;
+    z-index: 2; /* Coloca el modelo 3D encima */
+    transform: translateY(-4rem); 
+}
+
+.portada img {
+    width: 70%;
+    z-index: 1; /* Coloca la imagen detrás del modelo 3D */
+    transform: translateY(-15rem);
+}
+
 
 /* ADAPTACIONES RESPONSIVE */
 @media screen and (max-width: 1200px) {
