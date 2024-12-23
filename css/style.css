@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=DotGothic16&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    margin: 0 !important;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -43,6 +43,54 @@ main div model-viewer {
     z-index: 1; /* Coloca la imagen detrás del modelo 3D */
     transform: translateY(-15rem);
 }
+/* Footer */
+footer{
+    overflow-x: hidden
+}
+.secciones a {
+    font-size: 2rem;
+    font-family: "DotGothic16", serif
+}
+
+footer .secciones li a {
+    transition: font-size 0.6s ease; 
+}
+
+footer .secciones li.list-inline-item a:hover {
+    font-size: 2.3rem;
+}
+
+
+/* Botones de footer */
+
+.boton_cargo_footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4rem;
+}
+
+.btn-outline-dark {
+    border-radius: 2rem;
+}
+
+.btn-outline-dark:hover {
+    background-color: pink;   
+    color: black;                 
+    border-color: pink;    
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.texto_descubre h2 {
+    font-size: 2rem;
+    font-family:"DotGothic16", serif
+}
+
+.texto_descubre img {
+    width: 15%;
+}
+
 
 
 /* ADAPTACIONES RESPONSIVE */
