@@ -16,6 +16,7 @@ body {
 /* Cambiar tipografía */
 .navbar {
     background-color: pink  ; 
+    
 }
 .navbar-nav .nav-link {
   
@@ -65,12 +66,24 @@ main div model-viewer {
 
 /* Personajes */
 .fondo_personajes{
-    background-image:url('../img/cuadricula\ aesthetic\ rosa.jfif');
-    /* background-size: cover;
+    background-image:url('../img/Fondo_Personajes.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; */
+    background-position: center;
 }
-/* Personalización de las tarjetas */
+.titulo_personajes{
+    margin-left: 7rem;
+}
+.titulo_personajes h1{
+ font-family:"DotGothic16", serif ;
+ font-size: 5rem;
+}
+
+.titulo_personajes h2{
+ font-family:"Ballet", serif ;
+ font-size: 9rem;
+
+}
 .card {
     background-color: transparent !important; /* Fondo completamente transparente */
     border: none !important; /* Elimina los bordes */
@@ -89,12 +102,12 @@ main div model-viewer {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
-    color: white;
+    background-color:pink; /* Fondo oscuro semitransparente */
     padding: 5px 10px;
     transform: rotate(-10deg); /* Inclina el título */
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family:"DotGothic16", serif ;
+    border: 2px solid black; /* Borde sólido negro */
 }
 
 
