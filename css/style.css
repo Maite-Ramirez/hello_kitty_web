@@ -19,6 +19,11 @@ h1 {
     flex-direction: row;
 }
 
+@font-face {
+    src: url(fonts/frankfurter-regular.otf);
+    font-family:'Frankfurter';
+}
+
 
 .navbar {
     background-color: pink  ; 
