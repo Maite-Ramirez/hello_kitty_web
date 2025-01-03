@@ -20,6 +20,24 @@ h1 {
 }
 
 
+.navbar {
+    background-color: pink  ; 
+    
+}
+.navbar-nav .nav-link {
+  
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 1.2rem; 
+    color: white !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF69B4 !important; 
+}
+
+.navbar-nav .nav-item {
+    margin-right: 1rem; 
+}
 
 
 /* ADAPTACIONES RESPONSIVE */
