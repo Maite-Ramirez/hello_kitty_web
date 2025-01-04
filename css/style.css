@@ -13,18 +13,19 @@ h1 {
     font-size: 4em !important;
 }
 
-#horizontal-scroll {
-    width: 200vw;
-    display:flex;
-    flex-direction: row;
-}
 
+
+/* TIPOGRAFÍA*/
 @font-face {
     src: url(fonts/frankfurter-regular.otf);
     font-family:'Frankfurter';
 }
 
 
+
+
+
+/* MENU */
 .navbar {
     background-color: pink  ; 
     
@@ -33,6 +34,7 @@ h1 {
   
     font-family: 'DotGothic16', sans-serif; 
     font-size: 1.2rem; 
+    padding-left:2em !important;
     color: white !important; 
 }
 
@@ -43,6 +45,279 @@ h1 {
 .navbar-nav .nav-item {
     margin-right: 1rem; 
 }
+
+.navbar-brand {
+    width: 150px;
+    height: fit-content;
+}
+
+.navbar-brand > img {
+    height:100%;
+    width: 100%; 
+}
+
+
+
+/* SOBRE KITTY */
+#horizontal-scroll {
+    height: 91%;
+    display:flex;
+    flex-direction: row;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+
+}
+
+#about_1_responsive {
+    display: none;
+}
+
+#about_7_responsive {
+    display: none;
+}
+
+#about-1-1-1-1{
+    width: 18vh;
+    height: fit-content;
+}
+
+#about_1_desktop {
+    height:100%;
+    width: 100%;
+}
+
+#about-1-1-1-2{
+    width: 20vh;
+    padding: 0.3em;
+}
+
+#about_2 {
+    height:100%;
+    width: 100%;
+}
+
+#about-1-1-1{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+#about-1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-1-1-2 > figure {
+    height: auto;
+    width: 80vh;
+    padding:1em;
+}
+
+#about-1-1-2 {
+    width: 60vh;
+    overflow: hidden;
+    border-right:3em;
+
+}
+
+#about_video{
+    width: 100%;
+    height: auto;
+}
+ 
+#about-1-2 > h2 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17vh;
+    color:black;
+
+}
+
+
+
+#about-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:fit-content;
+}
+
+#about-2 {
+    display: flex;
+    height:85vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-2 > figure {
+    width: 60vh;
+    height: fit-content;
+    padding-left: 1em;
+}
+
+#about_4 {
+    height:100%;
+    width: 100%; 
+}
+
+#about-2 > div > p {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-size: 1.6vh;
+    display: flex;
+    word-break: normal;
+    line-height: 15px;
+}
+
+#about-2 > div {
+    width: 60vh;
+    display: flex;
+    padding-left: 2em;
+    padding-right: 1em;
+    overflow: hidden;
+}
+
+#about-3-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-3-1 > figure {
+    width: 80vh;
+    height: fit-content;
+}
+
+#about_5 {
+    height:100%;
+    width: 100%; 
+}
+
+#about-3-1-1 {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+}
+
+#about-3-1-1 > p {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-size: 1.6vh;
+    display: flex;
+    word-break: normal;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 2.5em;
+    line-height: 15px;
+}
+
+#about-3-1-1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+#insta2 > h5 {
+    font-family:'Frankfurter';
+    line-height: 1em;
+    font-size: 3.2vh;
+    padding-left: 0.5em;
+}
+
+#about-3-1-1-1-1 {
+    display: flex;
+    flex-direction: row;    
+    width: 31.3vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#insta1 > figure {
+    width: 7vh;
+    height: fit-content;
+}
+
+#instagram_about {
+    height:100%;
+    width: 100%; 
+}
+
+#about-3-1-1-1 > figure {
+    width: 27vh;
+    height: fit-content;
+}
+
+#about_8 {
+    height:100%;
+    width: 100%; 
+}
+
+#about-3-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-3-2-1 {
+    width: 47vh;
+    height: fit-content;
+    padding-top: 4vh;
+}
+
+#about_6 {
+    height:100%;
+    width: 100%; 
+}
+
+#about-3-2-2 {
+    width: 95vh;
+    height: fit-content;
+    padding-left: 4vh;
+}
+
+#about-3-2-2 > img {
+    height:100%;
+    width: 100%; 
+}
+
+#about-4 {
+    display: flex;
+    flex-direction: column; 
+    padding-right: 5vh;
+    justify-content: space-between;
+    height: 87vh;
+}
+
+#about-4 > figure {
+    width: 45vh;
+    height: fit-content;
+}
+
+#about-4 > figure > img {
+    height:100%;
+    width: 100%; 
+}
+
+#about_9 {
+    padding-top: 2vh;
+}
+
+#about-4 > p {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-size: 1.6vh;
+    display: flex;
+    word-break: normal;
+    padding-top: 1em;
+    line-height: 15px;
+}
+
+
+
 
 
 /* ADAPTACIONES RESPONSIVE */

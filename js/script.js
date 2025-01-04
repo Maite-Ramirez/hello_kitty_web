@@ -3,11 +3,11 @@ $document.ready(function(){
 
     AOS.init();
 
-    const scroll = new LocomotiveScroll({
-        el: document.querySelector('[data-scroll-container]'),
-        smooth: true,
-        direction: 'horizontal',
-      });
+//    const scroll = new LocomotiveScroll({
+//        el: document.querySelector('[data-scroll-container]'),
+//        smooth: true,
+//        direction: 'horizontal',
+//      });
 
 //$("#projects-guide > div > a").on("click", function(){
         //console.log($("#projects-guide-open").css("display"));
