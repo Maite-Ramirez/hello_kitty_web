@@ -9,6 +9,24 @@ $document.ready(function(){
        direction: 'horizontal',
       });
 
+
+    $("#about-3-1-1-1-1").on("mouseover",function(){
+        $("#instagram_about").attr('src',"img/instagram_hover.svg");
+    });
+
+    $("#about-3-1-1-1-1").on("mouseout", function(){
+        $("#instagram_about").attr('src',"img/instagram.svg");
+    });
+
+
+    $("#about-4-1").on("mouseover",function(){
+        $("#about_9").attr('src',"img/About_9_hover.png");
+    });
+
+    $("#about-4-1").on("mouseout", function(){
+        $("#about_9").attr('src',"img/About_9.png");
+    });
+
 //$("#projects-guide > div > a").on("click", function(){
         //console.log($("#projects-guide-open").css("display"));
       

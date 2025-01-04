@@ -82,7 +82,19 @@ h1 {
     word-wrap: break-word; /* Evita que las palabras largas se desborden */
 }
 
+#horizontal-scroll a {
+    cursor: pointer;
+    text-decoration: none;
+    color:#272626;
+}
 
+#about-3-1-1-1-1:hover {
+    color:#F04388;
+}
+
+#about-3-1-1-1-1 a:hover {
+    color:#F04388;
+}
 
 #about_1_responsive {
     display: none;
