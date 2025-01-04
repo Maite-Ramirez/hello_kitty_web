@@ -65,8 +65,24 @@ h1 {
     flex-direction: row;
     padding-right: 1.5em;
     padding-left: 1.5em;
+    max-width: fit-content;
 
 }
+
+#horizontal-scroll > div {
+    flex: 0 0 auto; /* Evita que los contenedores colapsen */
+}
+
+#horizontal-scroll > p {
+    flex: 0 0 auto; /* Evita que los contenedores colapsen */
+}
+
+#horizontal-scroll p {
+    white-space: normal; /* Permite que los párrafos hagan saltos de línea */
+    word-wrap: break-word; /* Evita que las palabras largas se desborden */
+}
+
+
 
 #about_1_responsive {
     display: none;
@@ -287,7 +303,7 @@ h1 {
 #about-4 {
     display: flex;
     flex-direction: column; 
-    padding-right: 5vh;
+    padding-right: 8vh;
     justify-content: space-between;
     height: 87vh;
 }
@@ -314,6 +330,8 @@ h1 {
     word-break: normal;
     padding-top: 1em;
     line-height: 15px;
+    width: 45vh;
+
 }
 
 
