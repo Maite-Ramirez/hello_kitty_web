@@ -6,8 +6,42 @@ $document.ready(function(){
     const scroll = new LocomotiveScroll({
         el: document.querySelector('[data-scroll-container]'),
         smooth: true,
-       direction: 'horizontal',
+        direction: 'horizontal',
       });
+
+
+
+function initScroll() {
+    const scrollContainer = document.querySelector('[data-scroll-container]');
+
+    if (window.innerWidth > 600) {
+        // Inicializar Locomotive Scroll solo si no está ya inicializado
+        if (!window.locoScroll) {
+            window.locoScroll = new LocomotiveScroll({
+                el: scrollContainer,
+                smooth: true,
+                direction: 'horizontal'
+            });
+        }
+    } else {
+        // Destruir Locomotive Scroll y reiniciar el estilo del contenedor
+        if (window.locoScroll) {
+            window.locoScroll.destroy();
+            window.locoScroll = null;
+            scrollContainer.style.transform = 'none'; // Resetear cualquier transformación previa
+            scrollContainer.style.width = '100%';     // Asegurar que el ancho sea el de la pantalla
+        }
+    }
+}
+
+// Ejecutar al cargar la página
+document.addEventListener('DOMContentLoaded', initScroll);
+
+// Ejecutar al redimensionar la ventana
+window.addEventListener('resize', initScroll);
+
+    
+
 
 
     $("#about-3-1-1-1-1").on("mouseover",function(){
