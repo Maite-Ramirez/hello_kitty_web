@@ -61,6 +61,19 @@ window.addEventListener('resize', initScroll);
         $("#about_9").attr('src',"img/About_9.png");
     });
 
+
+
+   
+
+
+
+        
+
+        
+
+
+
+
 //$("#projects-guide > div > a").on("click", function(){
         //console.log($("#projects-guide-open").css("display"));
       
