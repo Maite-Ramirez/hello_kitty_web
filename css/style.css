@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    padding-top:10vh;
 }
 
 .portada h1 {
@@ -55,6 +56,7 @@ main div model-viewer {
 }
 .titulo_personajes{
     margin-left: 7rem;
+    padding-top:10vh;
 }
 .titulo_personajes h1{
  font-family:"DotGothic16", serif ;
@@ -437,6 +439,7 @@ footer .secciones li.list-inline-item a:hover {
 /* MENU */
 .navbar {
     background-color: pink  ; 
+    position: fixed !important;
     
 }
 .navbar-nav .nav-link {
@@ -475,7 +478,7 @@ footer .secciones li.list-inline-item a:hover {
     padding-right: 1.5em;
     padding-left: 1.5em;
     max-width: fit-content;
-
+    padding-top:10vh;
 }
 
 #horizontal-scroll > div {
