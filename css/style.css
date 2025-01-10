@@ -39,6 +39,7 @@ main div model-viewer {
     height: 70vh;
     z-index: 2; /* Coloca el modelo 3D encima */
     transform: translateY(-4rem); 
+    position: relative;
 }
 
 .portada img {
@@ -415,7 +416,7 @@ footer .secciones li.list-inline-item a:hover {
     }
 
     #galeria_merch h1 {
-        font-size: 12vh !important;
+        font-size: 8vh !important;
     }
 
     #galeria_merch img {
