@@ -13,8 +13,9 @@ body {
 
 }
 
-
-
+.z-2 {
+    z-index: 20 !important;
+}
 
 /* Home */
 .portada {
@@ -37,7 +38,7 @@ body {
 main div model-viewer {
     width: 70vh;
     height: 70vh;
-    z-index: 2; /* Coloca el modelo 3D encima */
+    z-index: 1; /* Coloca el modelo 3D encima */
     transform: translateY(-4rem); 
     position: relative;
 }
