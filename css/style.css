@@ -440,6 +440,7 @@ footer .secciones li.list-inline-item a:hover {
 .navbar {
     background-color: pink  ; 
     position: fixed !important;
+    z-index: 200000 !important;
     
 }
 .navbar-nav .nav-link {
@@ -836,8 +837,10 @@ footer .secciones li.list-inline-item a:hover {
         display: block;
         width: 100%; /* Restablecer el ancho al 100% */
         overflow: visible;
-        padding: 0;
-        padding-top:10vh;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-top:10vh !important;
     }
 
     #horizontal-scroll > div {
