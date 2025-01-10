@@ -611,7 +611,6 @@ footer .secciones li.list-inline-item a:hover {
     font-size: 1.6vh;
     display: flex;
     word-break: normal;
-    line-height: 15px;
 }
 
 #about-2 > div {
@@ -653,7 +652,6 @@ footer .secciones li.list-inline-item a:hover {
     padding-left: 1em;
     padding-bottom: 1em;
     padding-top: 2.5em;
-    line-height: 15px;
 }
 
 #about-3-1-1-1 {
@@ -756,7 +754,6 @@ footer .secciones li.list-inline-item a:hover {
     display: flex;
     word-break: normal;
     padding-top: 1em;
-    line-height: 15px;
     width: 45vh;
 
 }
@@ -963,7 +960,6 @@ footer .secciones li.list-inline-item a:hover {
 
 #about-3-1-1 > p {
     font-size: 1.6vh;
-    line-height: 15px;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
