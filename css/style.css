@@ -840,7 +840,7 @@ footer .secciones li.list-inline-item a:hover {
         padding-right: 0;
         padding-left: 0;
         padding-bottom: 0;
-        padding-top:20% !important;
+        padding-top:0 !important;
     }
 
     #horizontal-scroll > div {
@@ -869,6 +869,10 @@ footer .secciones li.list-inline-item a:hover {
     }
 
 
+
+    #about-1 {
+        padding-top:20% !important;
+    }
 
     #about-1-1 {
         flex-direction: column;
