@@ -837,6 +837,7 @@ footer .secciones li.list-inline-item a:hover {
         width: 100%; /* Restablecer el ancho al 100% */
         overflow: visible;
         padding: 0;
+        padding-top:10vh;
     }
 
     #horizontal-scroll > div {
